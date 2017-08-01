@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <title>NSBE Webinar - CSS</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat|Zilla+Slab" rel="stylesheet">
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <nav>
-      <!-- I added  #bdbdbd grey lighten-1 to change the navbar color-->
-      <div class="nav-wrapper #bdbdbd grey lighten-1">
+      <!-- I added  #42a5f5 blue lighten-1 to change the navbar color-->
+      <div class="nav-wrapper #42a5f5 blue lighten-1">
         <!-- Note I added navText as a custom CSS to move the text over -->
         <a href="#" class="brand-logo navText">Milo</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -19,20 +20,28 @@
         </ul>
       </div>
     </nav>
-    <div>
-      <h1>Milo's Website</h1>
-      <img src="./Milo.JPG">
-      <p>A simple website for Learn To Code - HTML/CSS with NO CSS added</p>
-        <h3>About Me</h3>
-        <p>Hello, My name is Milo and I am a 2.5 year old English Bulldog! My hobbies include:
-          <ul>
-            <li>Eating</li>
-            <li>Going For Walks</li>
-            <li>Playing with other dogs</li>
-            <li>Going to the <a href="https://www.meetup.com/sfbulldogs/">SF Bulldog Meetup!</a></li>
-          </ul>
-          I was born and raised in Atwater, CA before moving to San Francisco, CA at the age of 6 months old to live with my dad (and now my mom too!). <br>
-        </p>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h1>Milo's Website</h1>
+        </div>
+        <div class="col s6">
+          <img class="materialboxed" width="75%" src="./Milo.JPG">
+          <p>Milo in his happy zone at the beach</p>
+        </div>
+        <div class="col s6">
+          <h3 class="center">About Me</h3>
+          <p>Hello, My name is Milo and I am a 2.5 year old English Bulldog!</p>
+            <ul class="collection with-header">
+              <li class="collection-header">My hobbies include:</li>
+              <li class="collection-item">Eating</li>
+              <li class="collection-item">Going For Walks</li>
+              <li class="collection-item">Playing with other dogs</li>
+              <li class="collection-item">Going to the <a href="https://www.meetup.com/sfbulldogs/">SF Bulldog Meetup!</a></li>
+            </ul>
+            <p>I was born and raised in Atwater, CA before moving to San Francisco, CA at the age of 6 months old to live with my dad (and now my mom too!). </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

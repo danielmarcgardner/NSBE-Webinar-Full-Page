@@ -1,3 +1,11 @@
 .navText {
   margin-left: 5%;
 }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, li {
+  font-family: 'Zilla Slab', sans-serif;
+}
