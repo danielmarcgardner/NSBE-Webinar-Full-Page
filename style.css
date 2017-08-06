@@ -2,10 +2,10 @@
   margin-left: 5%;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
+h1, h3 {
+  font-family: 'Sedgwick Ave', cursive;
 }
 
-p, li {
-  font-family: 'Zilla Slab', sans-serif;
+li, p {
+  font-family: 'Montserrat', sans-serif;
 }
